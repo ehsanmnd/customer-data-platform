@@ -1,0 +1,8 @@
+{
+  "name": "Customer Data Platform",
+  "description": "A comprehensive Customer Data Platform (CDP) showcasing LTV, segmentation, and churn prediction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
