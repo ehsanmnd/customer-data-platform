@@ -76,8 +76,8 @@ export default function App() {
               <Database size={24} />
             </div>
             <div>
-              <h1 className="text-white font-semibold text-lg tracking-tight">هوایار صنعتی</h1>
-              <span className="text-[10px] text-indigo-400 font-bold tracking-widest uppercase mb-4">داشبورد تحلیلی</span>
+              <h1 className="text-white font-semibold text-lg tracking-tight">گروه صنعتی هوایار</h1>
+              <span className="text-[10px] text-indigo-400 font-bold tracking-widest uppercase mb-4">پلتفرم داده مشتریان</span>
             </div>
           </div>
           <button 
@@ -175,7 +175,6 @@ export default function App() {
 
             <div className="text-left hidden sm:block mr-4">
               <p className="text-xs font-bold text-white">ادمین هوایار</p>
-              <p className="text-[10px] text-slate-500">واحد هوش تجاری</p>
             </div>
             <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-slate-700 to-slate-800 border border-white/10 relative">
               <span className="absolute -top-1 -right-1 w-3 h-3 bg-rose-500 rounded-full border-2 border-[#0a0a0b]"></span>
@@ -193,7 +192,7 @@ export default function App() {
                 <p className="text-xs text-slate-500">کل مشتریان B2B</p>
                 <button type="button" className="group relative focus:outline-none">
                   <Info size={14} className="text-slate-600 cursor-help transition-colors group-hover:text-slate-300 group-focus:text-slate-300" />
-                  <div className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2.5 bg-[#1e1e24] text-xs text-slate-300 rounded-lg shadow-xl z-50 text-center pointer-events-none border border-white/10 leading-relaxed">
+                  <div className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 p-2.5 bg-[#1e1e24] text-xs text-slate-300 rounded-lg shadow-xl z-50 text-center pointer-events-none border border-white/10 leading-relaxed">
                     تعداد کل مشتریان تجاری (B2B) فعال در سیستم بر اساس فیلترهای انتخابی.
                   </div>
                 </button>
@@ -206,7 +205,7 @@ export default function App() {
                 <p className="text-xs text-slate-500">متوسط ارزش حیات (CLV)</p>
                 <button type="button" className="group relative focus:outline-none">
                   <Info size={14} className="text-slate-600 cursor-help transition-colors group-hover:text-slate-300 group-focus:text-slate-300" />
-                  <div className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2.5 bg-[#1e1e24] text-xs text-slate-300 rounded-lg shadow-xl z-50 text-center pointer-events-none border border-white/10 leading-relaxed">
+                  <div className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 p-2.5 bg-[#1e1e24] text-xs text-slate-300 rounded-lg shadow-xl z-50 text-center pointer-events-none border border-white/10 leading-relaxed">
                     میانگین ارزش کل طول عمر (Customer Lifetime Value) برای مشتریان فعلی.
                   </div>
                 </button>
@@ -219,7 +218,7 @@ export default function App() {
                 <p className="text-xs text-slate-500">مشتریان در معرض ریزش</p>
                 <button type="button" className="group relative focus:outline-none">
                   <Info size={14} className="text-slate-600 cursor-help transition-colors group-hover:text-slate-300 group-focus:text-slate-300" />
-                  <div className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2.5 bg-[#1e1e24] text-xs text-slate-300 rounded-lg shadow-xl z-50 text-center pointer-events-none border border-white/10 leading-relaxed">
+                  <div className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 p-2.5 bg-[#1e1e24] text-xs text-slate-300 rounded-lg shadow-xl z-50 text-center pointer-events-none border border-white/10 leading-relaxed">
                     تعداد مشتریانی که احتمال ریزش (Churn) آنها بیش از ۴۰ درصد پیش‌بینی شده است.
                   </div>
                 </button>
@@ -232,7 +231,7 @@ export default function App() {
                 <p className="text-xs text-slate-500">رشد ماهانه</p>
                 <button type="button" className="group relative focus:outline-none">
                   <Info size={14} className="text-slate-600 cursor-help transition-colors group-hover:text-slate-300 group-focus:text-slate-300" />
-                  <div className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2.5 bg-[#1e1e24] text-xs text-slate-300 rounded-lg shadow-xl z-50 text-center pointer-events-none border border-white/10 leading-relaxed">
+                  <div className="opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 p-2.5 bg-[#1e1e24] text-xs text-slate-300 rounded-lg shadow-xl z-50 text-center pointer-events-none border border-white/10 leading-relaxed">
                     درصد رشد تعداد مشتریان فعال نسبت به ماه گذشته در همین بازه زمانی.
                   </div>
                 </button>

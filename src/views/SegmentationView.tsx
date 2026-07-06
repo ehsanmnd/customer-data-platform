@@ -94,9 +94,10 @@ export default function SegmentationView({ customers, onNavigateToProfile }: Pro
                 </Pie>
                 <Tooltip 
                   formatter={(value) => `${toPersianNumber(value as number)}٪`}
-                  contentStyle={{ textAlign: 'right', direction: 'rtl', fontFamily: 'Vazirmatn' }} 
+                  contentStyle={{ textAlign: 'right', direction: 'rtl', fontFamily: 'inherit' }} 
+                  itemStyle={{ fontFamily: 'inherit' }}
                 />
-                <Legend verticalAlign="bottom" height={36} wrapperStyle={{ fontFamily: 'Vazirmatn' }}/>
+                <Legend verticalAlign="bottom" height={36} wrapperStyle={{ fontFamily: 'inherit' }}/>
               </PieChart>
             </ResponsiveContainer>
           </div>

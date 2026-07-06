@@ -14,3 +14,9 @@
     color: #e2e8f0;
   }
 }
+
+/* Fix Recharts legend spacing for RTL */
+.recharts-legend-item-text {
+  margin-right: 8px !important;
+  margin-left: 0 !important;
+}
